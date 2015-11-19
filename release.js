@@ -12,7 +12,7 @@
   var pushCmds       = [ 'rm abort push' ];
   var cleanupCmds    = [];
   var defaultOptions = { encoding: 'utf-8' };
-  var origin         = 'https://github.com/mklph/material';
+  var origin         = 'https://github.com/mklph/material.git';
   var lineWidth      = 80;
   var lastMajorVer   = JSON.parse(exec('curl https://material.angularjs.org/docs.json')).latest;
   var newVersion;
